@@ -99,6 +99,10 @@ private:
     sf::RenderWindow window;
     sf::Texture kingTexture;
     sf::Texture queenTexture;
+    sf::Texture rookTexture;
+    sf::Texture bishopTexture;
+    sf::Texture knightTexture;
+    sf::Texture pawnTexture;
     Tile board[BOARD_SIZE][BOARD_SIZE];
     int selectedX = -1, selectedY = -1;
 
